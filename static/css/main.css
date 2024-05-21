@@ -1,5 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Philosopher&family=Poppins:wght@300&display=swap');
+
+/*Body Style*/
+.decoration{
+
+ width: 100%;
+ background-image: url(../products/arabesco-left-bottom.svg);  
+ filter: hue-rotate(350deg); /* Rotate hue to change color */  
+ background-repeat: no-repeat;
+ background-position: bottom left ;
+ /*transform: rotate(90deg);*/
+ z-index: -1;
+ background-size: 26%;
+ 
+
+
+
+}
+
+
+/* Heading Decoration*/
+
+ h1{
+
+  
+    
+    
+  font-size: px;
+  padding: 3% 18%;
+    display: flex;
+    
+    align-items: center;
+    z-index: 9999;
+
+
+  
+  text-decoration: none;
+  font-weight: 600;
+  font-size: xx-large;
+  text-shadow: .5px .5px 3px white;
+  transition: .4s;
+
+}
+h1{
+
+  transform: scale(1.1);
+
+
+
+}
+h1 .f,.d,.a,.k{color: #ffc107;}
+
+.quesDeco{
+ font-weight:bold;
+
+}
+h1 .e,.b,.c,.A{
+  color: #dc3545
+
+}
+/*img and their name decoration*/
+.deco {
+  width: 500px;
+  height: auto;
+}
+.deco .name{
+
+  color: rgb(14, 140, 110);
+  font-size: 20px;
+  font-weight: bolder;
+
+}
+.deco img{
+  background-color: rgb(245, 241, 238);
+  border-radius: 50%;
+
+}
+
+
 *{
-    font-family: sans-serif;
+    font-family:  'Philosopher', sans-serif;
+    ;
 }
 
 .split {
@@ -50,4 +131,19 @@ textarea {
   text-decoration: underline;
   text-underline-position: under;
   cursor: pointer;
+}
+
+
+/*reaction heading decoration*/
+.reactdeco{
+font-size: large;
+font-weight: bold;
+color: #ffc107;
+
+
+}
+.neg{
+
+  color: #dc3545
+  ;
 }
